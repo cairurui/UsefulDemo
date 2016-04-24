@@ -22,6 +22,7 @@
         <activity android:name=".activity.FrescoImageCircleActivity" />
         <activity android:name=".activity.FrescoResizeActivity" />
         <activity android:name=".activity.FrescoImageGIFActivity" />
+        <activity android:name=".retrofitdemo.RetrofitDemo" />
     </application>
 
 </manifest>

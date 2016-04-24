@@ -6,6 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.xiaocai.usefuldemo.app.R;
+import com.xiaocai.usefuldemo.app.logger.Logger;
+import com.xiaocai.usefuldemo.app.retrofitdemo.RetrofitDemo;
+import com.xiaocai.usefuldemo.app.retrofitdemo.WeatherBean;
+import com.xiaocai.usefuldemo.app.retrofitdemo.WeatherModel;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -37,6 +45,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn4:
                 startActivity(new Intent(this,FrescoImageGIFActivity.class));
+                break;
+            case R.id.btn5:
+                startActivity(new Intent(this,RetrofitDemo.class));
                 break;
         }
     }
