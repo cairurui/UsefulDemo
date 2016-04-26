@@ -10,6 +10,7 @@ import com.xiaocai.usefuldemo.app.logger.Logger;
 import com.xiaocai.usefuldemo.app.retrofitdemo.RetrofitDemo;
 import com.xiaocai.usefuldemo.app.retrofitdemo.WeatherBean;
 import com.xiaocai.usefuldemo.app.retrofitdemo.WeatherModel;
+import com.xiaocai.usefuldemo.app.retrofitdemo.simpledemo.RetrofitDemoActivity;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn3).setOnClickListener(this);
         findViewById(R.id.btn4).setOnClickListener(this);
         findViewById(R.id.btn5).setOnClickListener(this);
+        findViewById(R.id.btn6).setOnClickListener(this);
     }
 
 
@@ -35,19 +37,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn1:
-                startActivity(new Intent(this,FrescoImageSampleActivity.class));
+                startActivity(new Intent(this, FrescoImageSampleActivity.class));
                 break;
             case R.id.btn2:
-                startActivity(new Intent(this,FrescoImageCircleActivity.class));
+                startActivity(new Intent(this, FrescoImageCircleActivity.class));
                 break;
             case R.id.btn3:
-                startActivity(new Intent(this,FrescoResizeActivity.class));
+                startActivity(new Intent(this, FrescoResizeActivity.class));
                 break;
             case R.id.btn4:
-                startActivity(new Intent(this,FrescoImageGIFActivity.class));
+                startActivity(new Intent(this, FrescoImageGIFActivity.class));
                 break;
             case R.id.btn5:
-                startActivity(new Intent(this,RetrofitDemo.class));
+                startActivity(new Intent(this, RetrofitDemo.class));
+                break;
+            case R.id.btn6:
+                startActivity(new Intent(this, RetrofitDemoActivity.class));
                 break;
         }
     }

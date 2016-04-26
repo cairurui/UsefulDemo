@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.xiaocai.usefuldemo.app"
@@ -32,4 +32,6 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
     compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta3'
     compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'//给retrofit2打日志用的
+
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
 }
