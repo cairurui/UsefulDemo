@@ -47,4 +47,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="retrofit demo"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava demo"/>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava demo"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava demo"/>
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava demo"/>
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava demo"/>
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava demo"/>
 </LinearLayout>

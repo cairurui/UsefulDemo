@@ -11,6 +11,12 @@ import com.xiaocai.usefuldemo.app.retrofitdemo.RetrofitDemo;
 import com.xiaocai.usefuldemo.app.retrofitdemo.WeatherBean;
 import com.xiaocai.usefuldemo.app.retrofitdemo.WeatherModel;
 import com.xiaocai.usefuldemo.app.retrofitdemo.simpledemo.RetrofitDemoActivity;
+import com.xiaocai.usefuldemo.app.rxandroiddemo.RxAndroidDemoActivity;
+import com.xiaocai.usefuldemo.app.rxandroiddemo.RxAndroidDemoActivity2;
+import com.xiaocai.usefuldemo.app.rxandroiddemo.RxAndroidDemoActivity3;
+import com.xiaocai.usefuldemo.app.rxjavademo.RxjavaDemoActivity;
+import com.xiaocai.usefuldemo.app.rxjavademo.RxjavaDemoActivity2;
+import com.xiaocai.usefuldemo.app.rxjavademo.RxjavaDemoActivity3;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -30,6 +36,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn4).setOnClickListener(this);
         findViewById(R.id.btn5).setOnClickListener(this);
         findViewById(R.id.btn6).setOnClickListener(this);
+        findViewById(R.id.btn7).setOnClickListener(this);
+        findViewById(R.id.btn8).setOnClickListener(this);
+        findViewById(R.id.btn9).setOnClickListener(this);
+        findViewById(R.id.btn10).setOnClickListener(this);
+        findViewById(R.id.btn11).setOnClickListener(this);
+        findViewById(R.id.btn12).setOnClickListener(this);
     }
 
 
@@ -53,6 +65,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn6:
                 startActivity(new Intent(this, RetrofitDemoActivity.class));
+                break;
+            case R.id.btn7:
+                startActivity(new Intent(this, RxjavaDemoActivity.class));
+                break;
+            case R.id.btn8:
+                startActivity(new Intent(this, RxjavaDemoActivity2.class));
+                break;
+            case R.id.btn9:
+                startActivity(new Intent(this, RxjavaDemoActivity3.class));
+                break;
+            case R.id.btn10:
+                startActivity(new Intent(this, RxAndroidDemoActivity.class));
+                break;
+            case R.id.btn11:
+                startActivity(new Intent(this, RxAndroidDemoActivity2.class));
+                break;
+            case R.id.btn12:
+                startActivity(new Intent(this, RxAndroidDemoActivity3.class));
                 break;
         }
     }

@@ -24,6 +24,12 @@
         <activity android:name=".activity.FrescoImageGIFActivity" />
         <activity android:name=".retrofitdemo.RetrofitDemo" />
         <activity android:name=".retrofitdemo.simpledemo.RetrofitDemoActivity" />
+        <activity android:name=".rxjavademo.RxjavaDemoActivity" />
+        <activity android:name=".rxjavademo.RxjavaDemoActivity2" />
+        <activity android:name=".rxjavademo.RxjavaDemoActivity3" />
+        <activity android:name=".rxandroiddemo.RxAndroidDemoActivity" />
+        <activity android:name=".rxandroiddemo.RxAndroidDemoActivity2" />
+        <activity android:name=".rxandroiddemo.RxAndroidDemoActivity3" />
     </application>
 
 </manifest>
